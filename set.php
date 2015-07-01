@@ -1,0 +1,24 @@
+<?php
+
+$loader = require __DIR__.'/vendor/autoload.php';
+
+$API_KEY = '115389891';
+
+// create Telegram API object
+$telegram = new Longman\TelegramBot\Telegram($API_KEY);
+
+// set webhook
+$telegram->setWebHook('https://github.com/botkuiz/kuiz.git');
+After c reate hook.php and put:
+
+<?php
+
+$loader = require __DIR__.'/vendor/autoload.php';
+
+$API_KEY = '115389891';
+
+// create Telegram API object
+$telegram = new Longman\TelegramBot\Telegram($API_KEY);
+
+// handle telegram webhook request
+$telegram->handle();
