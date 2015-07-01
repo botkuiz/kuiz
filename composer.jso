@@ -3,6 +3,6 @@
     "type": "kuiz",
     "require": {
         "php": ">=5.3.0",
-        "botkuiz/telegram-bot": "*"
+        "Longman/telegram-bot": "*"
     }
 }
