@@ -2,7 +2,7 @@
 
 $loader = require __DIR__.'/vendor/autoload.php';
 
-$API_KEY = '115389891';
+$API_KEY = 'AAFCDDv9GbzWJx1DwR6ghFwoenx-Tw9fj7c';
 
 // create Telegram API object
 $telegram = new Longman\TelegramBot\Telegram($API_KEY);
@@ -15,7 +15,7 @@ After c reate hook.php and put:
 
 $loader = require __DIR__.'/vendor/autoload.php';
 
-$API_KEY = '115389891';
+$API_KEY = 'AAFCDDv9GbzWJx1DwR6ghFwoenx-Tw9fj7c';
 
 // create Telegram API object
 $telegram = new Longman\TelegramBot\Telegram($API_KEY);
