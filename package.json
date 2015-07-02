@@ -4,7 +4,7 @@
     "version": "0.3.0",
     "repository": {
         "type":"git",
-        "url": "https://github.com/mast/telegram-bot-api.git"
+        "url": "https://github.com/botkuiz/kuiz.git"
     },
     "main": "./lib/telegram-bot.js",
     "keywords": [
@@ -15,7 +15,7 @@
         "bot",
         "api"
     ],
-    "author": "Max Stepanov <mast@imast.ru>",
+    "author": "Mie_aplus",
     "license": "MIT",
     "dependencies": {
         "extend": "2.0.1",
